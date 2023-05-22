@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="./icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="./icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Hero page</title>   
+</head>
+<body>
+    <!-- MEUNU DE NAVEGAÇÂO -->
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="index.html">Página de <span>herois</span></a></div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <!-- <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="problemas.html">Problemas</a></li>
+                <li><a href="inovacao.html">Inovação</a></li>
+                <li><a href="diferenciais.html">Diferenciais</a></li>
+                <li><a href="selo.html">Selo</a></li>
+                <li><a href="login.html">Login</a></li> -->
+                <li><a href="Contato.html">Contato</a></li>
+                <li><button id="theme-button" class="theme-button"> trocar tema </button></li>
+                
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!--home inicio-->
+    
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Sejam bem-vindos !</div>
+                <div class="text-2">Nossos herois</div>
+                <div class="text-3">aqui temos <span class="typing"></span></div>
+                <a href="#about">Nossos diferenciais</a>
+                <img src="./img/logo-semfundo.png" > 
+            </div>
+        </div>  
+    </section>
+
+    <!--sessão sobre-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Produtos</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <div>
+                        <img id="image-car" />
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">introdução do nosso site</div>
+                    <p>Bem-vindo à nossa loja online, onde a magia dos super-heróis se torna realidade! Aqui, você encontrará uma ampla seleção dos mais incríveis produtos inspirados nos seus heróis favoritos. </p>
+                    <p><br>Deixe-se envolver pelo universo dos quadrinhos e filmes, e descubra uma variedade de itens exclusivos, desde camisetas e bonés até action figures e acessórios colecionáveis. Nossa loja é um verdadeiro paraíso para os fãs de super-heróis, onde cada produto foi cuidadosamente selecionado para proporcionar a melhor experiência aos apaixonados por esses personagens icônicos. Seja você um defensor da justiça ou um admirador dos vilões carismáticos, temos algo especial reservado para todos os corações heroicos. Explore agora mesmo nossa loja e embarque nessa aventura heroica conosco!</p>
+                    <a href="#about-2">MAPA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão serviços-->
+    <!--  <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Valores</h2>
+            <div class="serv-content">
+               <div class="card">
+                   <div class="box">
+                        <ion-icon name="earth"></ion-icon>
+                    <div class="text">Diversidade</div>
+                    <p>Focamos criar um produto acessivel a todas empresas.Se destacariam na competitividade empresarial as empresas preucupadas com o meio ambiente</p>
+                   </div>
+               </div>
+
+               <div class="card">
+                <div class="box">
+                    <ion-icon name="stats-chart"></ion-icon>
+                 <div class="text">Experiencia</div>
+                 <p>Em nossa start-up nossos valores estão ligados a ética e sustentabilidade proporcionando a experiencia unica de serviço</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="hourglass-outline"></ion-icon>
+                 <div class="text">Visão de futuro</div>
+                 <p>Sempre desenvolvemos nossos profutos visando melhorias e novos atechments proporcionando empresas terem uma disparada na competitividade empresarial</p>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="leaf"></ion-icon>
+                 <div class="text">Sustentabilidade</div>
+                 <p>Axion green se preocupa com o meio ambiente, adotando práticas sustentáveis desde a linha de produção até o produto final</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="heart"></ion-icon>
+                 <div class="text">Paixão</div>
+                 <p>Somos movidos pela paixão pelo conhecimento, trabalhamos sempre com exelencia, empenho e amor afim de concientizar uma nova geração</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="accessibility"></ion-icon>
+                 <div class="text">Preucupação</div>
+                 <p> Nós valorizamos a satisfação dos nossos clientes, através de um atendimento cuidadoso e atento às suas necessidades e preferências</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Sesão produto e link para o selo -->
+    <section class="about" id="about-2">
+        <div class="max-width">
+            <h2 class="title">Mapa</h2>
+            <div class="about-content">
+                
+                <div class="column right1">
+                    <div class="text">introdução e apresentação de nosso produto</div>
+                    <p>Para facilitar sua jornada até nossa loja e garantir que você não perca um único minuto de emoção heroica, disponibilizamos um mapa detalhado da rua. Através dele, você encontrará facilmente o caminho para nossa localização. Nossa loja está convenientemente situada em um ponto estratégico da cidade, cercada por outras atrações e com fácil acesso aos transportes públicos. O mapa fornecerá direções claras e precisas, indicando as ruas principais, pontos de referência e opções de estacionamento próximas. Seja você um cidadão local ou um visitante ansioso para conhecer nossa loja de produtos de heróis, nosso mapa da rua será seu guia confiável para uma experiência de compras verdadeiramente heroica. Fique tranquilo, pois nossa loja está apenas a alguns passos de distância. Estamos ansiosos para recebê-lo e compartilhar o universo dos heróis com você.<p>
+                    <a href="#services">Produtos</a>
+                </div>
+                <div class="column left-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14628.175255319753!2d-46.66088745!3d-23.56686985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1684762652567!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+   <hr>
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Produtos</h2>
+            <div class="carde">
+                <img src="./img/luvas.jpg" alt="Imagem 1">
+                <h3>Luva de hulk</h3>
+                <p>Par de luvas do Hulk. Desperte o super herói que existe dentro de você. Brinque, divirta-se e envolva pessoas ao seu redor. Totalmente de plástico e contém pegador interno para as crianças segurarem!</p>
+                <button>U$ 150</button>
+            </div>
+            
+            <div class="carde">
+                <img src="./img/martelo.jpg" alt="Imagem 2">
+                <h3>Martelo do Thor</h3>
+                <p>Este martelo com fantástico acabamento e detalhes da Marvel Legends, inspirado no filme: Love and Thunder.</p>
+                <button>U$ 250</button>
+            </div>
+            
+            <div class="carde">
+                <img src="./img/escudo.jpg" alt="Imagem 3">
+                <h3>Escudo do Captão america</h3>
+                <p>O Escudo do Capitão América é uma réplica incrível e fielmente detalhada do icônico escudo usado pelo lendário Capitão América. </p>
+                <button>U$ 300</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about-2">
+        <div class="max-width">
+            <h2 class="title">lista de herois</h2>
+            <div class="about-content">
+                
+                <div class="column right1">
+                    <div class="text">Top 10 escolhidos</div>
+                    <p><ul><li>Superman:pode voar, super força, visão de raio X,visão de calor    
+                        <li>Hulk:super força</li>   
+                        <li>Deadpool: imortalidade e regeneração  </li>
+                        <li>Homem formiga: capacidade de encolher   </li>  
+                        <li>Capitão america: força sobre humana    </li>  
+                        <li>Doutor estranho:controle de realidade e tempo  </li>  
+                        <li>Flash:super velocidade</li>
+                        <li>Canario negro: grito super sonico     </li>
+                        <li>Wolverine:garras de adamantium implantada no corpo e regeneração       </li>
+                        <li>Mulher maravilha: super força e chicote da verdade  </li>
+                        </li></ul></p>
+                    <a href="#services">Produtos</a>
+                </div>
+                <div class="column left-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14628.175255319753!2d-46.66088745!3d-23.56686985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1684762652567!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--sessão  footer / cabeçalho -->
+    <footer>
+        <span>Criado por <ion-icon name="logo-github"></ion-icon><a href="https://github.com/Pontessxx">Pontes</a> | <ion-icon name="logo-github"></ion-icon><a href="https://github.com/gukawamura">Gustavo</a> | <ion-icon name="logo-github"></ion-icon><a href="https://github.com/rcm2005">Rafael</a> | <ion-icon name="logo-github"></ion-icon><a href="https://github.com/Capriottiii">Felipe</a> | <ion-icon name="logo-github"></ion-icon><a href="https://github.com/Viniyama23">VInicius</a></span>
+        <span><br>Imagens geradas pela IA: <a href="https://playgroundai.com/create">Playgrondai</a></span>
+        <p>Telefone: (00) 1234-5678</p>
+        <p>Data: </p>
+        <p id="date"></p>
+        <p>Relogio: <p id="main"class="relogio"></p></p>
+        <div>
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="script.js"></script>
+    <script src="tema.js"></script>
+    
+    
+    <!-- Essa parte de código representa a inclusão de algumas bibliotecas externas em uma página da web. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   
+</body>
+</html>
